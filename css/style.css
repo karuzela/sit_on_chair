@@ -154,23 +154,81 @@ div.slider_col > div:nth-child(3) {
 /* SECTION IMAGES */
 
 .section_images {
-
+    height: 350px;
+    position: relative;
 }
 
-.section_img {
-    
+.section_images_container {
+    height: 230px;
+    width: 100%;
+    margin-top: 25px;
+    position: absolute;
 }
 
-section_images_copy_box {
-    
+.section_images_col {
+    width: 320px;
+    height: 230px;
+    float: left;
+    margin: 0px 15px 0 15px;
+    border: 1px solid #dbdbdb;
 }
 
-section_images_title {
-    
+.image_title {
+    height: 60px;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    z-index: 3;
+    top: 155px;
 }
 
-section_images_copy {
-    
+.title_stripe {
+    background-color: #27c7ab;
+    height: 7px;
+    width: 137px;
+}
+
+.photo_stripe {
+   position: absolute;
+    top: 190px; 
+}
+
+.stripe_copy {
+    color: black;
+    font-size: 16px;
+    font-family: 'ralewaybold';
+    position: absolute;
+    top: 170px;
+}
+
+.img_1 {
+    background-image: url(../images/box1_img.jpg);
+    position: relative;
+}
+
+.img_2 {
+    background-image: url(../images/box2_img.jpg); 
+    position: relative;
+}
+
+.box {
+    margin-left: 20px;
+    width: 270px;
+}
+
+.section_images_title {
+    font-size: 16px; 
+    font-family:'ralewaybold';
+    margin-top: 25px;
+}
+
+.section_images_copy {
+    font-size: 14px;  
+    margin-top: 15px;
+    color: #b4b4b4;
+    line-height: 20px;
 }
 
 /* SECTION CENNIK */
