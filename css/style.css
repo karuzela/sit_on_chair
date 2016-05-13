@@ -1,0 +1,125 @@
+/* MAIN STYLES */
+
+body {
+    font-family: 'ralewayregular';
+}
+
+.main_width {
+    width: 1055px;
+    margin: 0 auto;
+}
+
+/* HEADER STYLES */
+
+header {
+    height: 41px;
+    background-color: black;
+}
+
+nav {
+    line-height: 41px;
+}
+
+.header_logo {
+    text-transform: uppercase;
+    font-family: 'ralewayregular';
+    font-size: 14px;
+    color: white;
+    float: left;
+}
+
+/* "on" with different colour */
+
+.header_logo span {
+    text-transform: uppercase;
+    font-family: 'ralewaybold';
+    font-size: 14px;
+    color: #27c7ab;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+}
+
+.menu > li {
+    display: inline-block;
+    
+}
+
+.menu li > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family:"ralewaybold";
+}
+
+/* SECTION SLIDER STYLES */
+
+.slider {
+    height: 545px;
+}
+
+.slider_less_than_sign {
+    display: inline-block;
+}
+
+.slider_img {
+    display: inline-block;
+}
+
+.slider_right_side {
+    display: inline-block;
+    
+}
+
+.slider_title {
+    text-transform: uppercase;
+    font-family: 'ralewaybold';
+    font-size: 
+}
+
+.slider_copy {
+    
+}
+
+.slider_button {
+    font-size: 24px;
+}
+
+.slider_more_than_sign {
+    display: inline-block;
+}
+
+/* SECTION IMAGES */
+
+.section_images {
+    
+}
+
+.section_img {
+    
+}
+
+section_images_copy_box {
+    
+}
+
+section_images_title {
+    
+}
+
+section_images_copy {
+    
+}
+
+/* SECTION CENNIK */
+
+.section_cennik {
+    
+}
+
+.container_basic_plan {
+    
+}
