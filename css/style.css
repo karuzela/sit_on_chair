@@ -76,40 +76,72 @@ nav {
 }
 
 .slider_less_than_sign {
-    display: inline-block;
+/*    display: inline-block;*/
+    color: #27c7ab;
+    font-size: 70px;
+    font-family: 'ralewaylight';
+    float: left;
+    line-height: 545px;
+    margin-left: 50px;
 }
 
 .slider_img {
-    display: inline-block;
+/*    display: inline-block;*/
+    float: left;
+    margin-top: 120px;
 }
 
 .slider_right_side {
-    display: inline-block;
-    
+/*    display: inline-block;*/
+    width: 450px;
+    float: left;
+    margin-top: 150px;
 }
 
 .slider_title {
     text-transform: uppercase;
     font-family: 'ralewaybold';
-    font-size: 
+    font-size: 40px;
+    display: block;
+}
+
+.slider_title > span {
+    color: #27c7ab;
 }
 
 .slider_copy {
-    
+    width: 350px;
+    line-height: 25px;
+    text-align: center;
 }
 
 .slider_button {
     font-size: 24px;
+    text-decoration: none;
+    color: white;
+    background-color: #27c7ab;
+    text-transform: uppercase;
+    border-radius: 7px;
+    padding: 15px 30px 10px 40px;
+    position: relative;
+    top: 50px; 
+    left: 39px;
+    
 }
 
 .slider_more_than_sign {
-    display: inline-block;
+/*    display: inline-block;*/
+    color: #27c7ab;
+    font-size: 70px;
+    font-family: 'ralewaylight';
+    float: left;
+    line-height: 545px;
 }
 
 /* SECTION IMAGES */
 
 .section_images {
-    
+
 }
 
 .section_img {
