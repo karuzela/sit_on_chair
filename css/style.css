@@ -167,7 +167,7 @@ div.slider_col > div:nth-child(3) {
 
 .section_images_col {
     width: 320px;
-    height: 230px;
+    height: 220px;
     float: left;
     margin: 0px 15px 0 15px;
     border: 1px solid #dbdbdb;
@@ -181,18 +181,19 @@ div.slider_col > div:nth-child(3) {
     color: rgba(255, 255, 255, 0.3);
     position: absolute;
     z-index: 3;
-    top: 155px;
+    top: 142px;
 }
 
-.title_stripe {
+.title_stripe_style {
     background-color: #27c7ab;
     height: 7px;
     width: 137px;
 }
 
-.photo_stripe {
+.title_stripe_img_position {
    position: absolute;
-    top: 190px; 
+    top: 180px; 
+    left: 10px;
 }
 
 .stripe_copy {
@@ -200,7 +201,8 @@ div.slider_col > div:nth-child(3) {
     font-size: 16px;
     font-family: 'ralewaybold';
     position: absolute;
-    top: 170px;
+    top: 160px;
+    left: 10px;
 }
 
 .img_1 {
@@ -213,7 +215,7 @@ div.slider_col > div:nth-child(3) {
     position: relative;
 }
 
-.box {
+.section_images_box {
     margin-left: 20px;
     width: 270px;
 }
@@ -222,6 +224,7 @@ div.slider_col > div:nth-child(3) {
     font-size: 16px; 
     font-family:'ralewaybold';
     margin-top: 25px;
+    margin-left: 20px;
 }
 
 .section_images_copy {
@@ -234,9 +237,215 @@ div.slider_col > div:nth-child(3) {
 /* SECTION CENNIK */
 
 .section_cennik {
-    
+    height: 725px;
+    background-color: #f1f1f1;
 }
 
-.container_basic_plan {
-    
+.section_cennik_main_container {
+    height: inherit;
 }
+
+.section_cennik_col {
+    height: inherit;
+    width: 30%;
+    float: left;
+}
+
+.section_title_container {
+    position: relative;
+    top: 40px;
+    height: 160px;
+}
+
+.section_title_stripe {
+    background-color: #27c7ab;
+    width: 320px;
+    height: 8px;
+    position: absolute;
+    top: 45px;
+}
+
+.section_title {
+   position: absolute;
+    top: 10px;
+}
+
+.section_title > p {
+    text-transform: uppercase;
+    color: #565656;
+    font-size: 26px;
+}
+
+.section_box_container {
+    position: relative;
+    border: 1px solid #c2c2c2;
+    width: 328px;
+    height: 500px;
+    background-color: #f9f9f9;
+    top: 8px;
+}
+
+.circle {
+    position: absolute;    
+}
+
+/* pamiętaj o poprawieniu wyśrodkowania sztuczką */
+
+.bigger_circle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid #c2c2c2;
+    margin: 0 auto 0 auto;
+    left: 130px;
+    right; 0;
+    top: -39px;
+    background-color: #f9f9f9;
+}
+
+/* pamiętaj o poprawieniu wyśrodkowania sztuczką */
+
+.smaller_circle {
+    position: absolute;
+    background-color: #c2c2c2;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin: 0 auto 0 auto;
+    top: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.section_cennik_box {
+    position: absolute;
+}
+
+.section_cennik_box_title {
+    position: relative;
+    height: 26px;
+    width: 328px;
+    left: 90px;
+    top: 40px;
+}
+
+.section_cennik_box_title > p {
+    text-transform: uppercase;
+    color: #27c7ab;
+    font-size: 26px;
+    position: absolute;
+}
+
+.section_cennik_box_price_circle_container {
+    width: 130px;
+    height: 130px; 
+}
+
+.section_cennik_box_price_circle {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 1px solid #c2c2c2;  
+    bottom: -80px;
+    left: 95px;
+}
+
+.price_big_number {
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    left: 37px;
+    bottom: -25px;
+}
+
+.price_big_number > p {
+    color: #c2c2c2;
+    font-size: 45px;
+    font-family: 'ralewaybold';
+}
+
+.price_small_number {
+    position: absolute;
+    left: 90px;
+    top: 20px;
+}
+
+.price_small_number > p {
+    color: #c2c2c2;
+    font-size: 16px;
+    font-family: 'ralewaybold';
+}
+
+.price_subtitle {
+    position: absolute;
+    top: 90px;
+    left: 28px;
+}
+
+.price_subtitle > p {
+    text-transform: uppercase;
+    color: #c2c2c2;
+    font-size: 16px;
+}
+.box_line_1 {
+    position: relative;
+    height: 42px;
+    background-color: #e4e4e4;
+    width: 326px;
+    bottom: -120px;
+}
+
+/* nie działa sztuczka z centrowaniem */
+.box_line_1 > p {
+    position: absolute;
+    color: #949494;
+    top: 10px;
+    left: 65px;    
+}
+
+.box_line_2 {
+    position: relative;
+    height: 42px;
+    background-color: #f1f1f1;
+    width: 326px;
+    bottom: -120px;
+}
+
+.box_line_2 > p {
+    color: #7e7e7e;
+    top: 10px;
+    left: 135px; 
+    position: absolute;
+}
+
+.box_line_3 {
+    position: relative;
+}
+
+.box_line_4 {
+    position: relative;
+}
+
+.box_button_container {
+    position: relative;
+}
+
+.box_button_container > div {
+    position: absolute;
+    top: 215px;
+    left: 105px;
+}
+
+.box_button {
+    text-transform: uppercase;
+    background-color: #27c7ab;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 30px 8px 30px;
+}
+
