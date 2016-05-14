@@ -169,12 +169,9 @@ div.slider_col > div:nth-child(3) {
     width: 320px;
     height: 220px;
     float: left;
-/*    margin: 0px 15px 0 15px;*/
     border: 1px solid #dbdbdb;
     margin-right: 47px;
 }
-
-
 
 div.section_images_col:last-child {
     margin-right: 0;
@@ -248,57 +245,41 @@ div.section_images_col:last-child {
     background-color: #f1f1f1;
 }
 
-.section_cennik_main_container {
-    height: inherit;
-    width: 1055px;
-    position: relative;
-}
-
 .section_cennik_col {
-    height: inherit;
-    width: 320px;
+    width: 32%;
     float: left;
+    margin-right: 21px;
 }
 
-.section_title_container {
-    position: relative;
-    top: 40px;
-    height: 160px;
+div.section_cennik_col:last-of-type {
+    margin-right: 0;
 }
 
 .section_title_stripe {
     background-color: #27c7ab;
     width: 320px;
     height: 8px;
-    position: absolute;
-    top: 45px;
+    margin-top: -30px;
 }
 
 .section_title {
-   position: absolute;
-    top: 10px;
-}
-
-.section_title > p {
     text-transform: uppercase;
     color: #565656;
     font-size: 26px;
+    line-height: 115px;
 }
 
 .section_box_container {
-    position: relative;
     border: 1px solid #c2c2c2;
-    width: 328px;
     height: 500px;
     background-color: #f9f9f9;
-    top: 8px;
+    margin-top: 80px;
 }
 
-.circle {
-    position: absolute;    
+.active_box {
+    background-color: #27c7ab;
+    border: 1px solid #27c7ab;
 }
-
-/* pamiętaj o poprawieniu wyśrodkowania sztuczką */
 
 .bigger_circle {
     position: relative;
@@ -306,14 +287,17 @@ div.section_images_col:last-child {
     height: 60px;
     border-radius: 100%;
     border: 1px solid #c2c2c2;
-    margin: 0 auto 0 auto;
-    left: 130px;
-    right; 0;
+    margin: 0 auto;
     top: -39px;
     background-color: #f9f9f9;
 }
 
-/* pamiętaj o poprawieniu wyśrodkowania sztuczką */
+.bigger_circle_active {
+    background-color: #27c7ab;
+    border: 1px solid #27c7ab;
+}
+
+/* jak wyśrodkować kółko? */
 
 .smaller_circle {
     position: absolute;
@@ -321,35 +305,25 @@ div.section_images_col:last-child {
     width: 25px;
     height: 25px;
     border-radius: 100%;
-    margin: 0 auto 0 auto;
-    top: 16px;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
-.section_cennik_box {
-    position: absolute;
+.smaller_circle_active {
+    background-color: white;
+    border: 1px solid white;
 }
 
 .section_cennik_box_title {
-    position: relative;
-    height: 26px;
-    width: 328px;
-    left: 90px;
-    top: 40px;
-}
-
-.section_cennik_box_title > p {
     text-transform: uppercase;
     color: #27c7ab;
     font-size: 26px;
-    position: absolute;
+    height: 26px;
+    display: block;
+    text-align: center;
+    margin-top: -25px;
 }
 
-.section_cennik_box_price_circle_container {
-    width: 130px;
-    height: 130px; 
+.active_box_title {
+    color: white;
 }
 
 .section_cennik_box_price_circle {
@@ -358,94 +332,88 @@ div.section_images_col:last-child {
     height: 130px;
     border-radius: 100%;
     border: 1px solid #c2c2c2;  
-    bottom: -80px;
-    left: 95px;
+    margin: 0 auto;
+    top: 30px;
 }
+
+.active_section_cennik_box_price_circle {
+    background-color: white;
+    border: 1px solid white;  
+}
+
+/* jak wyśrodkować napis? */
 
 .price_big_number {
     position: absolute;
-    height: 130px;
-    width: 130px;
-    left: 37px;
-    bottom: -25px;
-}
-
-.price_big_number > p {
+    height: 45px;
+/*    width: 45px;*/
     color: #c2c2c2;
     font-size: 45px;
     font-family: 'ralewaybold';
+    margin: 0 auto;
+    display: block;
 }
 
 .price_small_number {
     position: absolute;
     left: 90px;
     top: 20px;
-}
-
-.price_small_number > p {
     color: #c2c2c2;
     font-size: 16px;
     font-family: 'ralewaybold';
+}
+
+.active_price_number {
+    color: #27c7ab !important;
 }
 
 .price_subtitle {
     position: absolute;
     top: 90px;
     left: 28px;
-}
-
-.price_subtitle > p {
     text-transform: uppercase;
     color: #c2c2c2;
     font-size: 16px;
 }
-.box_line_1 {
-    position: relative;
+
+.box_line_darker_grey {
     height: 42px;
     background-color: #e4e4e4;
-    width: 326px;
-    bottom: -120px;
 }
 
-/* nie działa sztuczka z centrowaniem */
-.box_line_1 > p {
-    position: absolute;
+.box_line_1 {
+     margin-top: 75px;
+}
+
+.box_line_darker_grey > p, .box_line_white > p {
     color: #949494;
-    top: 10px;
-    left: 65px;    
+    text-align: center;
+    line-height: 42px;
 }
 
-.box_line_2 {
-    position: relative;
+.box_line_lighter_grey {
     height: 42px;
     background-color: #f1f1f1;
-    width: 326px;
-    bottom: -120px;
 }
 
-.box_line_2 > p {
+.box_line_lighter_grey > p {
     color: #7e7e7e;
-    top: 10px;
-    left: 135px; 
-    position: absolute;
+    text-align: center;
+    line-height: 42px;
 }
 
-.box_line_3 {
-    position: relative;
+.box_line_empty {
+    height: 42px;
 }
 
-.box_line_4 {
-    position: relative;
+.box_line_white {
+ height: 42px; 
+ background-color: #ffffff;
 }
 
 .box_button_container {
-    position: relative;
-}
-
-.box_button_container > div {
-    position: absolute;
-    top: 215px;
-    left: 105px;
+    text-align: center;
+    margin-top: 23px;
 }
 
 .box_button {
@@ -454,7 +422,26 @@ div.section_images_col:last-child {
     color: white;
     font-size: 16px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 9px;
     padding: 10px 30px 8px 30px;
 }
 
+.active_box_button {
+    background-color: white;
+    color: #27c7ab;
+}
+
+/* SECTION FORM STYLES */
+
+.section_form {
+    height: 630px;
+    background-color: white;
+}
+
+.section_form_col_left {
+    width: 66%;
+}
+
+.section.form_col.right {
+    width: 33%
+}
