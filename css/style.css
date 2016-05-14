@@ -169,8 +169,15 @@ div.slider_col > div:nth-child(3) {
     width: 320px;
     height: 220px;
     float: left;
-    margin: 0px 15px 0 15px;
+/*    margin: 0px 15px 0 15px;*/
     border: 1px solid #dbdbdb;
+    margin-right: 47px;
+}
+
+
+
+div.section_images_col:last-child {
+    margin-right: 0;
 }
 
 .image_title {
@@ -243,11 +250,13 @@ div.slider_col > div:nth-child(3) {
 
 .section_cennik_main_container {
     height: inherit;
+    width: 1055px;
+    position: relative;
 }
 
 .section_cennik_col {
     height: inherit;
-    width: 30%;
+    width: 320px;
     float: left;
 }
 
