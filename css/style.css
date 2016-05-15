@@ -290,6 +290,11 @@ div.section_cennik_col:last-of-type {
     width: 25px;
     height: 25px;
     border-radius: 100%;
+    margin: auto;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
 }
 
 .smaller_circle_active {
@@ -331,12 +336,16 @@ div.section_cennik_col:last-of-type {
 .price_big_number {
     position: absolute;
     height: 45px;
-/*    width: 45px;*/
+    width: 130px;
     color: #c2c2c2;
     font-size: 45px;
     font-family: 'ralewaybold';
-    margin: 0 auto;
-    display: block;
+    margin: auto;
+    top: -30px; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    text-align: center;
 }
 
 .price_small_number {
@@ -346,6 +355,8 @@ div.section_cennik_col:last-of-type {
     color: #c2c2c2;
     font-size: 16px;
     font-family: 'ralewaybold';
+    top: 30px;
+    left: 95px;
 }
 
 .active_price_number {
