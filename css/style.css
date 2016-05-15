@@ -89,32 +89,26 @@ nav {
 }
 
 .slider_col > img {
-    margin-left: 20px
-}
-
-div.slider_col > div:first-child {
-    margin-top: 50px;
     margin-left: 20px;
-}
-
-div.slider_col > div:nth-child(2) {
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-div.slider_col > div:nth-child(3) {
-    margin-top: 60px;
-    margin-left: 70px;
+    height: 438px;
+    width: 611px;
+    max-height: 120%;
+    max-width: 120%;
+    margin-left: -30px;
+    margin-top: -15px;
+    
 }
 
 .slider_title {
     text-transform: uppercase;
-    font-family: 'ralewaybold';
+    font-family: 'ralewayregular';
     font-size: 40px;
+    margin-top: 52px;
 }
 
 .slider_title > span {
     color: #27c7ab;
+    font-family: 'ralewaybold';
 }
 
 .slider_copy {
@@ -122,6 +116,12 @@ div.slider_col > div:nth-child(3) {
     line-height: 25px;
     text-align: center;
     color: #333333;
+    margin-top: 40px;
+}
+
+.slider_button_container {
+    margin-left: 50px;
+    margin-top: 30px;
 }
 
 .slider_button {
@@ -132,7 +132,6 @@ div.slider_col > div:nth-child(3) {
     text-transform: uppercase;
     border-radius: 7px;
     padding: 15px 30px 10px 40px;
-    
 }
 
 .slider_arrow {
@@ -155,14 +154,6 @@ div.slider_col > div:nth-child(3) {
 
 .section_images {
     height: 350px;
-    position: relative;
-}
-
-.section_images_container {
-    height: 230px;
-    width: 100%;
-    margin-top: 25px;
-    position: absolute;
 }
 
 .section_images_col {
@@ -171,6 +162,7 @@ div.slider_col > div:nth-child(3) {
     float: left;
     border: 1px solid #dbdbdb;
     margin-right: 47px;
+    margin-top: -60px;
 }
 
 div.section_images_col:last-child {
@@ -183,45 +175,31 @@ div.section_images_col:last-child {
     background-color: rgba(255, 255, 255, 0.3);
     background: rgba(255, 255, 255, 0.3);
     color: rgba(255, 255, 255, 0.3);
-    position: absolute;
-    z-index: 3;
-    top: 142px;
+    margin-top: 145px;
 }
 
 .title_stripe_style {
     background-color: #27c7ab;
     height: 7px;
     width: 137px;
-}
-
-.title_stripe_img_position {
-   position: absolute;
-    top: 180px; 
-    left: 10px;
+    margin-top: -25px;
+    margin-left: 20px;
 }
 
 .stripe_copy {
     color: black;
     font-size: 16px;
     font-family: 'ralewaybold';
-    position: absolute;
-    top: 160px;
-    left: 10px;
+    margin-top: -25px;
+    margin-left: 20px;
 }
 
 .img_1 {
     background-image: url(../images/box1_img.jpg);
-    position: relative;
 }
 
 .img_2 {
     background-image: url(../images/box2_img.jpg); 
-    position: relative;
-}
-
-.section_images_box {
-    margin-left: 20px;
-    width: 270px;
 }
 
 .section_images_title {
@@ -236,6 +214,13 @@ div.section_images_col:last-child {
     margin-top: 15px;
     color: #b4b4b4;
     line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.section_images_box_3_stripe {
+margin-top: 5px;    
 }
 
 /* SECTION CENNIK */
