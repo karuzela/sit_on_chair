@@ -434,7 +434,7 @@ div.section_cennik_col:last-of-type {
 /* SECTION FORM STYLES */
 
 .section_form {
-    height: 630px;
+    height: 720px;
     background-color: white;
 }
 
@@ -442,17 +442,19 @@ div.section_cennik_col:last-of-type {
     width: 66%;
     float: left;
     margin-right: 20px;
+    margin-top: 30px;
 }
 
 .section_form_col_right {
     width: 32%;
     float: left;
     margin-right: 0;
+    margin-top: 40px;
 }
 
 input, textarea {
     width: 93%;
-    margin-top: 22px;
+    margin-top: 32px;
     border: 1px solid #27c7ab;
     border-radius: 2px;
     font-size: 33px;
@@ -516,7 +518,21 @@ footer {
     background-color: white;
 }
 
-footer_col_left > p {
+footer > div.main_width {
+    margin-top: -70px;
+}
+
+.footer_col_left {
+    float: left;
+    width: 66%;
+}
+
+.footer_col_right {
+    float: right;
+    width: 33%;
+}
+
+.footer_col_left > p {
     font-family: "ralewayregular";
     font-size: 16px;
     color: #bfbfbf;
@@ -527,7 +543,17 @@ footer_col_left > p {
     margin-right: 0;
     text-transform: uppercase;
     font-size: 20px;
+    color: #9a9a9a;
+    float: right;
 }
 
+.footer_logo p > span {
+    font-family: 'ralewaybold';
+}
+
+.logos {
+    float: left;
+    margin-left: 0;
+}
 
 
